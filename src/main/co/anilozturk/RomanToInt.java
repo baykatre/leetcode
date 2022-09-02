@@ -1,6 +1,6 @@
 package src.main.co.anilozturk;
 
-public class Main {
+public class RomanToInt {
 
     static int M = 1000;
     static int D = 500;
@@ -42,19 +42,19 @@ public class Main {
 
     static int getValue(char c){
         if (c == 'I')
-            return 1;
+            return I;
         if (c == 'V')
-            return 5;
+            return V;
         if (c == 'X')
-            return 10;
+            return X;
         if (c == 'L')
-            return 50;
+            return L;
         if (c == 'C')
-            return 100;
+            return C;
         if (c == 'D')
-            return 500;
+            return D;
         if (c == 'M')
-            return 1000;
+            return M;
         return -1;
     }
 }
